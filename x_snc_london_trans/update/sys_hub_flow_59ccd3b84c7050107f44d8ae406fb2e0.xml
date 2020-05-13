@@ -11,7 +11,7 @@
         <copied_from_name/>
         <description/>
         <internal_name>test_flow</internal_name>
-        <label_cache>[]</label_cache>
+        <label_cache>[{"name":"edbe54f7-291e-4181-97f4-6d41a30112a1.statuses","label":"1➛Statuses","type":"array.object","base_type":"array.object","attributes":{"sourceId":"c555972d-afe5-47d7-9190-2f6e1558fe7f","child_name":"status","uiUniqueId":"8f23d972-bf31-4b9d-9693-2af9a0b89efd","uiTypeLabel":"Array.Object","co_type_name":"FDa5d82330c4b0501086d2303a052831a5","child_label":"status","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"d3f445b5-068e-4e45-aa38-4dc7532e4592","uiType":"array.object","child_type":"object","child_uiUniqueId":"4c5e40c5-f0a8-441b-aa89-0e499ce31288"}}]</label_cache>
         <latest_snapshot/>
         <master_snapshot/>
         <name>Test Flow</name>
@@ -29,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>59ccd3b84c7050107f44d8ae406fb2e0</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Test Flow</sys_name>
         <sys_overrides/>
         <sys_package display_value="London Transit Spoke" source="x_snc_london_trans">49595b384c7050107f44d8ae406fb25b</sys_package>
@@ -37,12 +37,12 @@
         <sys_scope display_value="London Transit Spoke">49595b384c7050107f44d8ae406fb25b</sys_scope>
         <sys_update_name>sys_hub_flow_59ccd3b84c7050107f44d8ae406fb2e0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-13 13:58:40</sys_updated_on>
+        <sys_updated_on>2020-05-13 14:53:50</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=59ccd3b84c7050107f44d8ae406fb2e0"/>
     <sys_variable_value action="delete_multiple" query="document_key=59ccd3b84c7050107f44d8ae406fb2e0"/>
-    <sys_hub_flow_component action="delete_multiple" query="flow=59ccd3b84c7050107f44d8ae406fb2e0^sys_idNOT IN0e3dd7b84c7050107f44d8ae406fb275"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=59ccd3b84c7050107f44d8ae406fb2e0^sys_idNOT IN0e3dd7b84c7050107f44d8ae406fb275,eba96b304cb050107f44d8ae406fb247"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_type display_value="List Line Statuses">665cdf784c7050107f44d8ae406fb2f4</action_type>
@@ -57,13 +57,62 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-13 13:58:40</sys_created_on>
         <sys_id>0e3dd7b84c7050107f44d8ae406fb275</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="London Transit Spoke">49595b384c7050107f44d8ae406fb25b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-13 13:58:40</sys_updated_on>
+        <sys_updated_on>2020-05-13 14:53:50</sys_updated_on>
         <ui_id>edbe54f7-291e-4181-97f4-6d41a30112a1</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=0e3dd7b84c7050107f44d8ae406fb275"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>0e3dd7b84c7050107f44d8ae406fb275</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 14:52:41</sys_created_on>
+        <sys_id>d1992b304cb050107f44d8ae406fb28e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 14:53:50</sys_updated_on>
+        <value>tube,cable-car</value>
+        <variable display_value="">ce3fd7f84c7050107f44d8ae406fb275</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Test Flow">59ccd3b84c7050107f44d8ae406fb2e0</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 14:53:06</sys_created_on>
+        <sys_id>eba96b304cb050107f44d8ae406fb247</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="London Transit Spoke">49595b384c7050107f44d8ae406fb25b</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 14:53:50</sys_updated_on>
+        <ui_id>329a94b0-6583-4c94-a06d-6d947097da8a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=eba96b304cb050107f44d8ae406fb247"/>
+    <sys_element_mapping action="delete_multiple" query="id=eba96b304cb050107f44d8ae406fb247"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>log_message</field>
+        <id>eba96b304cb050107f44d8ae406fb247</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 14:53:06</sys_created_on>
+        <sys_id>67a96b304cb050107f44d8ae406fb249</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 14:53:06</sys_updated_on>
+        <table>var__m_sys_hub_action_input_5bc1bcc6531003003bf1d9109ec587d4</table>
+        <value>{{edbe54f7-291e-4181-97f4-6d41a30112a1.statuses}}</value>
+    </sys_element_mapping>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=59ccd3b84c7050107f44d8ae406fb2e0^sys_idNOT INc63dd7b84c7050107f44d8ae406fb272"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
@@ -74,10 +123,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-13 13:58:40</sys_created_on>
         <sys_id>c63dd7b84c7050107f44d8ae406fb272</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-13 13:58:40</sys_updated_on>
+        <sys_updated_on>2020-05-13 14:53:50</sys_updated_on>
         <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -110,7 +159,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-05-13 13:56:42</sys_updated_on>
     </sys_flow_cat_variable_model>
-    <sys_hub_action_instance action="delete_multiple" query="flow=59ccd3b84c7050107f44d8ae406fb2e0^sys_idNOT IN0e3dd7b84c7050107f44d8ae406fb275"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=59ccd3b84c7050107f44d8ae406fb2e0^sys_idNOT IN0e3dd7b84c7050107f44d8ae406fb275,eba96b304cb050107f44d8ae406fb247"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_type display_value="List Line Statuses">665cdf784c7050107f44d8ae406fb2f4</action_type>
@@ -125,11 +174,60 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-13 13:58:40</sys_created_on>
         <sys_id>0e3dd7b84c7050107f44d8ae406fb275</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="London Transit Spoke">49595b384c7050107f44d8ae406fb25b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-13 13:58:40</sys_updated_on>
+        <sys_updated_on>2020-05-13 14:53:50</sys_updated_on>
         <ui_id>edbe54f7-291e-4181-97f4-6d41a30112a1</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=0e3dd7b84c7050107f44d8ae406fb275"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>0e3dd7b84c7050107f44d8ae406fb275</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 14:52:41</sys_created_on>
+        <sys_id>d1992b304cb050107f44d8ae406fb28e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 14:53:50</sys_updated_on>
+        <value>tube,cable-car</value>
+        <variable display_value="">ce3fd7f84c7050107f44d8ae406fb275</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Test Flow">59ccd3b84c7050107f44d8ae406fb2e0</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 14:53:06</sys_created_on>
+        <sys_id>eba96b304cb050107f44d8ae406fb247</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="London Transit Spoke">49595b384c7050107f44d8ae406fb25b</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 14:53:50</sys_updated_on>
+        <ui_id>329a94b0-6583-4c94-a06d-6d947097da8a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=eba96b304cb050107f44d8ae406fb247"/>
+    <sys_element_mapping action="delete_multiple" query="id=eba96b304cb050107f44d8ae406fb247"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>log_message</field>
+        <id>eba96b304cb050107f44d8ae406fb247</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 14:53:06</sys_created_on>
+        <sys_id>67a96b304cb050107f44d8ae406fb249</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 14:53:06</sys_updated_on>
+        <table>var__m_sys_hub_action_input_5bc1bcc6531003003bf1d9109ec587d4</table>
+        <value>{{edbe54f7-291e-4181-97f4-6d41a30112a1.statuses}}</value>
+    </sys_element_mapping>
 </record_update>
